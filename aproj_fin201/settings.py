@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'b_app201',
     'rest_framework',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'aproj_fin201.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'solar201',
+        'HOST': '127.0.0.1',
+        'USER': 'adminsolar',
+        'PASSWORD': '$$p@Ls44',
+        'PORT': '3306',
     }
 }
 
