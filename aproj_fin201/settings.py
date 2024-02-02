@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'b_app201',
     'rest_framework',
-    'django_extensions',
+
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'aproj_fin201.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'solar201',
+        'NAME': 'reservations',
         'HOST': '127.0.0.1',
         'USER': 'adminsolar',
         'PASSWORD': '$$p@Ls44',
