@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'b_app201',
     'rest_framework',
+    'django_extensions',
 
 ]
 

@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Solar, DateNow, Booking
+from .models import DateNow, Booking, Menu
 
 
-admin.site.register(Solar)
+admin.site.register(Menu)
 
 admin.site.register(Booking)
 
